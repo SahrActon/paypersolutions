@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Payper Solutions</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark nav-pills flex-sm-row" style="background: #33a2ee">
+    <a class="navbar-brand" style="font-size: 2em" href="#">
+        <img src="smartLogo.png" alt="" height="68" width="150">
+    </a>
+
+    <!--Button for mobile phones-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--Button for mobile phones-->
+
+
+    <div class="collapse navbar-collapse"
+         id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" href="./index.html"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./printers.html " ><i class="fas fa-print"></i> Printers
+                    and Copiers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./aboutus.html" ><i class="fas fa-info"></i> About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="./contactus.html" > <i class="fas fa-phone-volume"></i>
+                    Contact Us</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link " href="./papercut.html" > <i class="fas fa-cut"></i> Papercut MF</a>
+            </li>
+        </ul>
+    </div>
+
+</nav>
+
+
+<div class="container-fluid">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card mb-12" style="max-width: 2990px;">
+                    <div class="row no-gutters">
+                        <div class="container-fluid col-md-4">
+                            <img src="https://www.dnslimited.co.uk/wp-content/uploads/2017/05/Xerox-AltaLink-C8000-Series-A.jpg"
+                                 class="card-img" alt="..." width="100" height="460">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color: #fd876f;">Xerox Altalink C8030</h5>
+                                <p class="card-text">The AltaLink C8000 Series of colour multifunction printer deliver
+                                    new levels of capability and connectivity for mid-sized to large work groups and
+                                    busy offices. Providing instant and secure access to documents, data and workflows
+                                    from any deceive, anywhere, at any time.</p>
+                                <ul class="list-group list-group-flush" style="color: #0c76b6; font-size: 0.9em">
+                                    <li class="list-group-item">Colour MFP with support for A3</li>
+                                    <li class="list-group-item">Copy, print, scan, fax, email, built-in mobile
+                                        connectivity
+                                    </li>
+                                    <li class="list-group-item">Ideal for mid to large workgroups</li>
+                                    <li class="list-group-item">10" colour, customisable tablet-like user interface</li>
+                                    <li class="list-group-item">Powerful and scalable for simple to the most demanding
+                                        office applications
+                                    </li>
+                                    <li class="list-group-item"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="card mb-12" style="max-width: 2990px;">
+                    <br>
+                    <div class="row no-gutters">
+                        <div class="container-fluid col-md-3">
+
+                            <a href="./papercut.html">
+
+                                <img src="https://www.plankomat.co.za/en/assets/images/bg1-2-666x646.png"
+                                     class="card-img" height="350px" width="20%">
+                            </a>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color: #fd876f;">PaperCut - Print | Copy | Scan
+                                    Management </h5>
+                                <p class="card-text">Print management software that’s helping hundreds of millions of
+                                    people around the globe to minimize waste while having a secure and easy printing
+                                    experience.</p>
+                                <ul class="list-group list-group-flush" style="color: #0c76b6; font-size: 0.9em">
+                                    <li class="list-group-item">Print | Copy | Scan Management</li>
+                                    <li class="list-group-item">Easily print from any device, anytime</li>
+                                    <li class="list-group-item">Secure all documents before, during, and after
+                                        printing
+                                    </li>
+                                    <li class="list-group-item">Shrink your footprint and your bills</li>
+                                    <li class="list-group-item"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="card mb-12" style="max-width: 2990px;">
+                    <div class="row no-gutters">
+                        <div class="container-fluid col-md-3">
+                            <img src="https://leemic.co.uk/wp-content/uploads/2019/08/lexmark-m3150-front-143267-1-600x517.jpg"
+                                 class="card-img" alt="..." width="1024" height="460">
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color: #fd876f;">Lexmark M3150</h5>
+                                <p class="card-text">The Lexmark M3150 network-ready laser printer includes a 10.9 cm
+                                    (4.3 inch) colour touch-screen, internal 2-sided printing, 512MB of standard memory,
+                                    650-sheet input and a front USB Direct Interface.</p>
+                                <ul class="list-group list-group-flush" style="color: #0c76b6; font-size: 0.9em">
+                                    <li class="list-group-item">Get Work Done Quickly</li>
+                                    <li class="list-group-item">Print Complex Documents Fast</li>
+                                    <li class="list-group-item">Print Anytime and Anywhere</li>
+                                    <li class="list-group-item">Innovative Toner That Optimises Performance</li>
+                                    <li class="list-group-item">Streamline Tasks with Ease</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+<hr>
+<div class="container-fluid" style="color: black;text-align: center">
+
+    <h5>
+        <paragraph style="color: #fd0100;">Paper solution is Gambia's</paragraph>
+        largest multi-brand provider of managed print services, document and process technology and
+        outsource services.
+    </h5>
+
+    <hr>
+
+    <!--Source https://www.hp-publicsector-uk.co.uk/ -->
+    <div class="row">
+        <!-- 1 -->
+        <div class="col-sm-3">
+            <div class="card">
+                <br>
+                <img class="scale-with-grid center"
+                     src="https://www.hp-publicsector-uk.co.uk/wp-content/uploads/2020/05/Print.png"
+                     alt="" title="" width="100px" height="100px" style="text-align: center; align-content: center">
+                <div class="card-body">
+                    <h5 class="card-title">Managed Print Services</h5>
+                    <p class="card-text">
+                        Optimise the performance of your business and the productivity of your
+                        technology and staff with pro-active monitoring and pre-emptive servicing, combined with field
+                        and desk-side support.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- 2 -->
+        <div class="col-sm-3">
+            <div class="card">
+                <br>
+                <img class="scale-with-grid center"
+                     src="https://www.apogeecorp.com/wp-content/uploads/2019/01/Image20200710115154.png"
+                     alt="" title="" width="100px" height="100px" style="text-align: center; align-content: center">
+                <div class="card-body">
+                    <h5 class="card-title">Device as a Service</h5>
+                    <p class="card-text">
+                        Get the latest IT hardware, software, deployment and support services combined into a single
+                        monthly payment, giving you a lower cost of ownership. Adding more Text
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <!-- 3 -->
+        <div class="col-sm-3">
+            <div class="card">
+                <br>
+                <img class="scale-with-grid center"
+                     src="https://www.apogeecorp.com/wp-content/uploads/2019/01/Image20200710115203.png"
+                     alt="" title="" width="100px" height="100px" style="text-align: center; align-content: center">
+                <div class="card-body">
+                    <h5 class="card-title">Outsource Print</h5>
+                    <p class="card-text">
+                        24/7 on-demand outsource digital printing services to accompany our managed services and to
+                        ensure any document requirement you have can be delivered by a single outsource partner.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <!-- 4 -->
+        <div class="col-sm-3">
+            <div class="card">
+                <br>
+                <img class="scale-with-grid center "
+                     src="https://www.apogeecorp.com/wp-content/uploads/2019/01/Image20200710115159.png"
+                     alt="" title="" width="100px" height="100px" style="text-align: center; align-content: center">
+                <div class="card-body">
+                    <h5 class="card-title">Professional Services</h5>
+                    <p class="card-text">
+                        Helping you look beyond print volumes and devices to the workflows and document
+                        processes you rely upon, improving the efficiency of your organisation and reducing your carbon
+                        footprint.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<!----->
+<br>
+<div style="text-align: center">
+    <h3 style="color: #0c76b6;">
+        We Provide <a style="color: #fd876f;"> High Quality Printers & Copiers </a>To Schools & Businesses
+        <hr>
+    </h3>
+</div>
+<br>
+<!--Questions start-->
+<div class="container-fluid" style="text-align: center">
+    <div class="container-fluid">
+        <div class="card-group">
+            <div class="card">
+                <div class="container-fluid">
+                    <img class="card-img-top" width="700" height="380"
+                         src="https://d2i452a4he71ss.cloudfront.net/5/8/a/58a6ddd99c2a4/w:800/.png">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title" style="color: #fd876f;">Do you know what the true cost of your print
+                        management is? </h5>
+                    <p class="card-text">We can help keep your printing cost down.</p>
+                </div>
+                <div class="card-footer">
+                    <p class="card-text">
+                        <small class="text-muted"></small>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="container-fluid">
+                    <img class="card-img-top" width="700" height="380"
+                         src="https://image.freepik.com/free-photo/new-series-gambian-dalasi-black-wallet_52793-784.jpg">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title" style="color: #fd876f;">Is a saving of upto 70% on your print costs of
+                        interest to
+                        your company?</h5>
+                    <p class="card-text">Get in touch with us now.</p>
+                </div>
+                <div class="card-footer">
+                    <p class="card-text">
+                        <small class="text-muted"></small>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="container-fluid">
+                    <img class="card-img-top" width="700" height="380"
+                         src="https://www.compart.com/files/compart/media/bilder/produkte/Mill_Plus.svg">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title" style="color: #fd876f;">Do you know how to get your document processes and
+                        costs under control?</h5>
+                    <p class="card-text">Be in control.</p>
+                </div>
+                <div class="card-footer">
+                    <p class="card-text">
+                        <small class="text-muted"></small>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container-fluid" style="text-align: center">
+        <p>Designed By
+            <a href="https://www.linkedin.com/in/sahr-thomas-acton-42484976/" target="_blank">Thomas Acton</a>
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>
