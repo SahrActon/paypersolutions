@@ -40,26 +40,6 @@
 </head>
 <body>
 
-<!-- Google translate start-->
-<div id="google_translate_element"></div>
-
-<script type="text/javascript">
-
-    function setCookie(key, value, expiry) {
-        let expires = new Date();
-        expires.setTime(expires.getTime() + (expiry * 24 * 60 * 60 * 1000));
-        document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
-    }
-
-    function googleTranslateElementInit() {
-        setCookie('googtrans', '/en/pt', 1);
-        new google.translate.TranslateElement({
-                pageLanguage: 'fr'
-            },
-            'google_translate_element');
-    }
-</script>
-<!-- Google translate end-->
 
 <script type="text/javascript"
         src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
@@ -78,26 +58,24 @@
     <!--Button for mobile phones-->
 
 
-    <div class="collapse navbar-collapse"
-         id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size: 15px">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
-                <a class="nav-link" href="./index.html" style="color:white"><i class="fas fa-home"></i> Home</a>
+                <a class="nav-link" href="./index.html"><i class="fas fa-home"></i> Accueil</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./printers.html " style="color:white"><i class="fas fa-print"></i> Printers
-                    and Copiers</a>
+                <a class="nav-link" href="./printers.html" style="color:white"><i class="fas fa-print"></i> Imprimantes et copieurs</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./aboutus.html" style="color:white"><i class="fas fa-info"></i> About Us</a>
+                <a class="nav-link" href="./aboutus.html" style="color:white"><i class="fas fa-info"></i> À propos de nous</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="./contactus.html"> <i class="fas fa-phone-volume"></i>
-                    Contact Us</a>
+                <a class="nav-link active" href="./contactus.html" style="color:white"> <i class="fas fa-phone-volume"></i>
+                    Nous contacter</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link " href="./papercut.html" style="color:white"> <i class="fas fa-cut"></i> Papercut MF</a>
+                <a class="nav-link " href="./papercut.html" style="color:white"> <i class="fas fa-cut"></i> Papier découpé MF</a>
             </li>
         </ul>
     </div>
@@ -121,18 +99,18 @@
 
 <div class="container-fluid">
     <br>
-    <h2 style="text-align: center;color:#2e86fd">Got a question please contact us.</h2>
+    <h2 style="text-align: center;color:#2e86fd">Vous avez une question s'il vous plaît contactez-nous.</h2>
     <hr>
 
     <div class="row text-justify">
 
         <div class="col-sm text-justify center card">
-            <p><b>Address Line 1: </b> Sicap Amite 3, Rue KA-38</p>
-            <p><b>Address Line 2: </b> A cote de Pharmacie Selma</p>
-            <p><b>Town:</b> Dakar 10700 </p>
+            <p><b>Adresse 1: </b> Sicap Amite 3, Rue KA-38</p>
+            <p><b>Adresse 2: </b> A cote de Pharmacie Selma</p>
+            <p><b>Ville:</b> Dakar 10700 </p>
 
-            <p><a type="btn" href="tel:+44789425459" class=""> Call Customer Line 1 - +44789425459</a></p>
-            <p><a type="btn" href="tel:+221781130591" class=""> Call Customer Line 2 - +221781130591</a></p>
+            <p><a type="btn" href="tel:+44789425459" class=""> Appelez la ligne client 1 - +44789425459</a></p>
+            <p><a type="btn" href="tel:+221781130591" class=""> Appeler la ligne client 2 - +221781130591</a></p>
 
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.156600438181!2d-17.47003608513757!3d14.703734578482806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec10b6c0ddf9641%3A0x4cec83ba12beca3c!2sPharmacie%20SELMA!5e0!3m2!1sen!2suk!4v1632180507962!5m2!1sen!2suk"
                     width="100%" height="320" style="border:7px;" allowfullscreen="" loading="lazy"></iframe>
@@ -142,27 +120,27 @@
             <div class="card border-secondary mb-3">
                 <div class="card-body">
                     <div class="form-group">
-                        <label for="name"><font size="4">Name:</font></label>
-                        <input type="text" class="form-control" id="name" placeholder="Please enter your name message"
+                        <label for="name"><font size="4">Nom:</font></label>
+                        <input type="text" class="form-control" id="name" placeholder="S'il vous plaît entrez votre nom message"
                                required>
                     </div>
                     <div class="form-group">
                         <label for="email"><font size="4">Email:</font></label>
                         <input type="email" class="form-control" id="email"
-                               placeholder="Please enter your email" required>
+                               placeholder="Veuillez entrer votre email" required>
                     </div>
                     <div class="form-group">
-                        <label for="phone"><font size="4">Phone Number:</font></label>
+                        <label for="phone"><font size="4">Numéro de téléphone:</font></label>
                         <input type="tel" class="form-control" id="phone"
-                               placeholder="Please enter your phone number" required>
+                               placeholder="Veuillez entrer votre numéro de téléphone" required>
                     </div>
                     <div class="form-group">
-                        <label for="message"><font size="4">Message:</font></label>
+                        <label for="message"><font size="4">Un message:</font></label>
                         <textarea class="form-control" rows="5" id="message"
-                                  placeholder="Please enter your" required></textarea>
+                                  placeholder="Veuillez entrer votre message" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Send Message <i class="far fa-envelope"></i></button>
-                    <a type="btn" href="tel:07453982600" class="btn btn-success float-right">Call Now <i
+                    <button type="submit" class="btn btn-primary">Envoyer le message <i class="far fa-envelope"></i></button>
+                    <a type="btn" href="tel:07453982600" class="btn btn-success float-right">Appelle maintenant <i
                             class="fas fa-phone"></i></a>
                 </div>
             </div>
